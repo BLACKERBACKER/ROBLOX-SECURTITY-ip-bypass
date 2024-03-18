@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('https://i.pinimg.com/originals/1a/a2/00/1aa2008c04d15f46d38b797cb1452ed4.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff6b6b; /* Light neon red outline */
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    outline: none;
+}
+
+button {
+    padding: 15px 30px;
+    background-image: url('https://i.pinimg.com/originals/1a/a2/00/1aa2008c04d15f46d38b797cb1452ed4.gif');
+    background-size: cover;
+    background-color: transparent;
+    border: 2px solid #ff6b6b; /* Light neon red outline */
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+button:hover {
+    border-color: #ff3333; /* Neon red outline on hover */
+}
